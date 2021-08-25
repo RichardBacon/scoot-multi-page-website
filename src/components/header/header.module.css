@@ -17,12 +17,6 @@
   gap: 6rem;
 }
 
-.logo {
-  color: var(--color-light-navy);
-  font-family: var(--font-space-mono);
-  font-size: 4rem;
-}
-
 .links {
   display: flex;
   gap: 3.2rem;

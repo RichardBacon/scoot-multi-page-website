@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import AppStoreIcon from '../../assets/icons/app-store.svg';
 import GooglePlayIcon from '../../assets/icons/google-play.svg';
 import * as styles from './signup.module.css';

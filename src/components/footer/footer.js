@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-import { FaFacebookSquare } from '@react-icons/all-files/fa/FaFacebookSquare';
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter';
-import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
+import Logo from '../../assets/icons/logo-white.svg';
+import FacebookIcon from '../../assets/icons/facebook.svg';
+import TwitterIcon from '../../assets/icons/twitter.svg';
+import InstagramIcon from '../../assets/icons/instagram.svg';
 import * as styles from './footer.module.css';
 
 const Footer = () => {
@@ -10,8 +11,8 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.footerSection}>
-          <Link className={styles.logo} to="/">
-            scoot
+          <Link to="/">
+            <Logo />
           </Link>
 
           <nav>
@@ -37,18 +38,18 @@ const Footer = () => {
 
         <ul className={styles.socialLinks}>
           <li>
-            <a className={styles.socialLink}>
-              <FaFacebookSquare />
+            <a href="https://www.facebook.com">
+              <FacebookIcon />
             </a>
           </li>
           <li>
-            <a className={styles.socialLink}>
-              <FaTwitter />
+            <a href="https://www.twitter.com">
+              <TwitterIcon />
             </a>
           </li>
           <li>
-            <a className={styles.socialLink}>
-              <FaInstagram />
+            <a href="https://www.instagram.com">
+              <InstagramIcon />
             </a>
           </li>
         </ul>

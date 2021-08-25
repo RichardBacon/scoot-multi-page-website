@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import Logo from '../../assets/icons/logo-blue.svg';
 import * as styles from './header.module.css';
 
 const Header = () => {
@@ -7,8 +8,8 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerContent}>
         <div className={styles.headerSection}>
-          <Link className={styles.logo} to="/">
-            scoot
+          <Link to="/">
+            <Logo />
           </Link>
 
           <nav>
