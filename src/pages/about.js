@@ -1,7 +1,13 @@
 import * as React from 'react';
+import Seo from '../components/seo/seo';
 
 const AboutPage = () => {
-  return <>About Page</>;
+  return (
+    <>
+      <Seo title="About" />
+      About Page
+    </>
+  );
 };
 
 export default AboutPage;
