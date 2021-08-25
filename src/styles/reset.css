@@ -14,7 +14,7 @@ Remove default margin and padding from all elements
 Set a default line height that works in all browsers
 */
 html {
-  line-height: 1.15;
+  line-height: 1;
 }
 
 /**

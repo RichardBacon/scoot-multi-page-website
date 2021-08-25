@@ -1,0 +1,30 @@
+.signup {
+  background-color: var(--color-light-navy);
+  background-image: url('../../assets/patterns/semi-circles.svg');
+  background-position: 150% 100%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  height: 30rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--content-max-width);
+}
+
+.text {
+  max-width: 45rem;
+}
+
+.heading {
+  color: var(--color-white);
+  font-family: var(--font-space-mono);
+  font-size: 4.8rem;
+}
+
+.icons {
+  display: flex;
+  gap: 2rem;
+}
