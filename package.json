@@ -17,6 +17,7 @@
   "dependencies": {
     "@fontsource/lexend-deca": "^4.5.1",
     "@fontsource/space-mono": "^4.5.0",
+    "@react-icons/all-files": "^4.1.0",
     "gatsby": "^3.11.1",
     "gatsby-plugin-react-helmet": "^4.12.0",
     "react": "^17.0.1",
