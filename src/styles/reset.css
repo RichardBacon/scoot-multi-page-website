@@ -1,0 +1,41 @@
+/**
+Use box model that includes padding and border in width and height
+Remove default margin and padding from all elements
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+Set a default line height that works in all browsers
+*/
+html {
+  line-height: 1.15;
+}
+
+/**
+Make images easier to work with
+*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/**
+Remove underline from links 
+*/
+a {
+  text-decoration: none;
+}
+
+/** 
+Remove markers from lists
+*/
+ul,
+ol {
+  list-style: none;
+}

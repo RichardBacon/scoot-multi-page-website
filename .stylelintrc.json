@@ -3,6 +3,12 @@
   "plugins": ["stylelint-order"],
   "rules": {
     "order/properties-alphabetical-order": true,
-    "rule-empty-line-before": ["always", { "ignore": ["first-nested"] }]
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ]
   }
 }

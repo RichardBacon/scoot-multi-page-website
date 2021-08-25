@@ -1,0 +1,7 @@
+/**
+Make 1rem = 10px for easier calculations
+Use a percentage so that user set font size is respected
+*/
+html {
+  font-size: 62.5%;
+}
