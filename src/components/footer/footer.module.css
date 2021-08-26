@@ -2,36 +2,13 @@
   background-color: var(--color-dark-navy);
 }
 
-.footerContent {
+.footerWrapper {
   align-items: center;
   display: flex;
   height: 9.6rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--content-max-width);
-}
-
-.footerSection {
-  align-items: center;
-  display: flex;
-  gap: 6rem;
-}
-
-.logo {
-  color: var(--color-white);
-  font-family: var(--font-space-mono);
-  font-size: 4rem;
-}
-
-.links {
-  display: flex;
-  gap: 3.2rem;
-}
-
-.link {
-  color: var(--color-dim-grey);
-  font-family: var(--font-space-mono);
-  font-size: var(--default-font-size);
 }
 
 .socialLinks {

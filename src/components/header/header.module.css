@@ -2,28 +2,11 @@
   background-color: var(--color-white);
 }
 
-.headerContent {
+.headerWrapper {
   align-items: center;
   display: flex;
   height: 9.6rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--content-max-width);
-}
-
-.headerSection {
-  align-items: center;
-  display: flex;
-  gap: 6rem;
-}
-
-.links {
-  display: flex;
-  gap: 3.2rem;
-}
-
-.link {
-  color: var(--color-dim-grey);
-  font-family: var(--font-space-mono);
-  font-size: var(--default-font-size);
 }

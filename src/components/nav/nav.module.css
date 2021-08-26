@@ -1,0 +1,16 @@
+.nav {
+  align-items: center;
+  display: flex;
+  gap: 6rem;
+}
+
+.linkList {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.link {
+  color: var(--color-dim-grey);
+  font-family: var(--font-space-mono);
+  font-size: var(--default-font-size);
+}
