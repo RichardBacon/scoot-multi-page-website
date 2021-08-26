@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
 
       <div className={styles.info}>
-        <Line className={styles.line} />
+        <Line />
         <div className={styles.text}>
           <p>
             Scoot takes the hassle out of urban mobility. Our bikes are placed

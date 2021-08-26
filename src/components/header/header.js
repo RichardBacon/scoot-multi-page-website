@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Logo from '../../assets/icons/logo-blue.svg';
 import Nav from '../nav/nav';
+import Logo from '../../assets/icons/logo-blue.svg';
 import Button from '../button/button';
 import * as styles from './header.module.css';
 

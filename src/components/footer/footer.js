@@ -1,9 +1,9 @@
 import * as React from 'react';
+import Nav from '../nav/nav';
 import Logo from '../../assets/icons/logo-white.svg';
 import FacebookIcon from '../../assets/icons/facebook.svg';
 import TwitterIcon from '../../assets/icons/twitter.svg';
 import InstagramIcon from '../../assets/icons/instagram.svg';
-import Nav from '../nav/nav';
 import * as styles from './footer.module.css';
 
 const Footer = () => {

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Footer from '../footer/footer';
 import Header from '../header/header';
 import SignUp from '../signup/signup';
+import Footer from '../footer/footer';
 
 const Layout = ({ children }) => {
   return (

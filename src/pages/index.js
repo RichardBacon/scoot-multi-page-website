@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Hero from '../components/hero/hero';
-import Layout from '../components/layout/layout';
 import Seo from '../components/seo/seo';
+import Layout from '../components/layout/layout';
+import Hero from '../components/hero/hero';
 
 const HomePage = () => {
   return (
