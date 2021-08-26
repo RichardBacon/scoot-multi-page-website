@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Hero from '../components/hero/hero';
 import Layout from '../components/layout/layout';
 import Seo from '../components/seo/seo';
 
@@ -6,7 +7,9 @@ const HomePage = () => {
   return (
     <>
       <Seo />
-      <Layout>Home Page</Layout>
+      <Layout>
+        <Hero />
+      </Layout>
     </>
   );
 };

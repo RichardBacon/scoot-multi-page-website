@@ -1,0 +1,65 @@
+.hero {
+  background-image: url('../../assets/images/home-hero-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 65rem;
+  justify-content: center;
+}
+
+.headingWrapper {
+  margin: 0 auto;
+  max-width: var(--content-max-width);
+  width: 100%;
+}
+
+.heading {
+  color: var(--color-white);
+  font-family: var(--font-space-mono);
+  font-size: 5.6rem;
+  max-width: 60rem;
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.text {
+  color: var(--color-white);
+  font-family: var(--font-lexend-deca);
+  font-size: 1.5rem;
+  line-height: 1.7;
+  max-width: 40rem;
+}
+
+.rightArrow {
+  position: relative;
+  top: 46%;
+}
+
+.whiteCircles {
+  position: relative;
+  top: 66%;
+}
+
+.buttonWrapper {
+  margin: 0 auto;
+  max-width: 93rem;
+  width: 100%;
+}
+
+.button {
+  background-color: var(--color-yellow);
+  border: none;
+  color: var(--color-snow);
+  cursor: pointer;
+  font-family: var(--font-space-mono);
+  font-size: var(--default-font-size);
+  height: 5.4rem;
+  width: 18rem;
+}
