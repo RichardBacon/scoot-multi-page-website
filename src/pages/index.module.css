@@ -1,0 +1,14 @@
+.featuresSection {
+  background-image: url('../assets/patterns/line.svg');
+  background-position: 0 4rem;
+  background-repeat: no-repeat;
+  background-size: 70% 15px;
+}
+
+.featuresWrapper {
+  align-items: center;
+  display: flex;
+  gap: 3rem;
+  margin: 16rem auto;
+  max-width: var(--content-max-width);
+}
