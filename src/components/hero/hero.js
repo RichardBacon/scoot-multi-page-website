@@ -2,6 +2,7 @@ import * as React from 'react';
 import Line from '../../assets/icons/line.svg';
 import RightArrow from '../../assets/icons/right-arrow.svg';
 import WhiteCircles from '../../assets/icons/white-circles.svg';
+import Button from '../button/button';
 import * as styles from './hero.module.css';
 
 const Hero = () => {
@@ -25,7 +26,7 @@ const Hero = () => {
       </div>
 
       <div className={styles.buttonWrapper}>
-        <button className={styles.button}>Get Scootin</button>
+        <Button>Get Scootin</Button>
       </div>
     </section>
   );

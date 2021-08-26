@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../../assets/icons/logo-blue.svg';
+import Button from '../button/button';
 import * as styles from './header.module.css';
 
 const Header = () => {
@@ -33,7 +34,7 @@ const Header = () => {
           </nav>
         </div>
 
-        <button className={styles.button}>Get Scootin</button>
+        <Button>Get Scootin</Button>
       </div>
     </header>
   );

@@ -27,14 +27,3 @@
   font-family: var(--font-space-mono);
   font-size: var(--default-font-size);
 }
-
-.button {
-  background-color: var(--color-yellow);
-  border: none;
-  color: var(--color-snow);
-  cursor: pointer;
-  font-family: var(--font-space-mono);
-  font-size: var(--default-font-size);
-  height: 5.4rem;
-  width: 18rem;
-}
