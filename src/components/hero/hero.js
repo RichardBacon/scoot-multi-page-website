@@ -1,7 +1,7 @@
 import * as React from 'react';
-import Line from '../../assets/icons/line.svg';
-import RightArrow from '../../assets/icons/right-arrow.svg';
-import WhiteCircles from '../../assets/icons/white-circles.svg';
+import Line from '../../assets/patterns/line-yellow.svg';
+import RightArrow from '../../assets/patterns/right-arrow.svg';
+import WhiteCircles from '../../assets/patterns/white-circles.svg';
 import Button from '../button/button';
 import * as styles from './hero.module.css';
 

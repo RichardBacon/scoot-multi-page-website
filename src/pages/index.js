@@ -3,6 +3,7 @@ import Seo from '../components/seo/seo';
 import Layout from '../components/layout/layout';
 import Hero from '../components/hero/hero';
 import FeatureCard from '../components/featureCard/featureCard';
+import Line from '../assets/patterns/line-grey.svg';
 import LocateIcon from '../assets/icons/locate.svg';
 import ScooterIcon from '../assets/icons/scooter.svg';
 import RideIcon from '../assets/icons/ride.svg';
@@ -15,6 +16,10 @@ const HomePage = () => {
       <Layout>
         <Hero />
         <section className={styles.featuresSection}>
+          <div className={styles.lineWrapper}>
+            <Line className={styles.line} />
+          </div>
+
           <div className={styles.featuresWrapper}>
             <FeatureCard
               icon={<LocateIcon />}

@@ -1,8 +1,13 @@
 .signup {
   background-color: var(--color-light-navy);
-  background-image: url('../../assets/patterns/semi-circles.svg');
-  background-position: 150% 100%;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+.semiCircles {
+  bottom: 0;
+  position: absolute;
+  right: -16rem;
 }
 
 .content {
