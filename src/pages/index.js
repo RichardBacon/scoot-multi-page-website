@@ -3,6 +3,7 @@ import Seo from '../components/seo/seo';
 import Layout from '../components/layout/layout';
 import HeroSection from '../components/heroSection/heroSection';
 import FeaturesSection from '../components/featuresSection/featuresSection';
+import DetailsSection from '../components/detailsSection/detailsSection';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Layout>
         <HeroSection />
         <FeaturesSection />
+        <DetailsSection />
       </Layout>
     </>
   );
