@@ -3,7 +3,7 @@ import Line from '../../assets/patterns/line-yellow.svg';
 import RightArrow from '../../assets/patterns/right-arrow.svg';
 import WhiteCircles from '../../assets/patterns/white-circles.svg';
 import Button from '../button/button';
-import * as styles from './hero.module.css';
+import * as styles from './heroSection.module.css';
 
 const Hero = () => {
   return (
