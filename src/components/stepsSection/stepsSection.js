@@ -3,17 +3,17 @@ import Line from '../../assets/patterns/line-grey.svg';
 import LocateIcon from '../../assets/icons/locate.svg';
 import ScooterIcon from '../../assets/icons/scooter.svg';
 import RideIcon from '../../assets/icons/ride.svg';
-import * as styles from './featuresSection.module.css';
+import * as styles from './stepsSection.module.css';
 
-const FeaturesSection = () => {
+const StepsSection = () => {
   return (
-    <section className={styles.featuresSection}>
+    <section className={styles.stepsSection}>
       <div className={styles.lineWrapper}>
         <Line className={styles.line} />
       </div>
 
-      <div className={styles.featuresWrapper}>
-        <div className={styles.featureCard}>
+      <div className={styles.stepsWrapper}>
+        <div className={styles.stepCard}>
           <LocateIcon />
 
           <div className={styles.content}>
@@ -26,7 +26,7 @@ const FeaturesSection = () => {
           </div>
         </div>
 
-        <div className={styles.featureCard}>
+        <div className={styles.stepCard}>
           <ScooterIcon />
 
           <div className={styles.content}>
@@ -39,7 +39,7 @@ const FeaturesSection = () => {
           </div>
         </div>
 
-        <div className={styles.featureCard}>
+        <div className={styles.stepCard}>
           <RideIcon />
 
           <div className={styles.content}>
@@ -56,4 +56,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default StepsSection;

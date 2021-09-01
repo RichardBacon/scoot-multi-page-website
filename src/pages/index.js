@@ -2,7 +2,7 @@ import * as React from 'react';
 import Seo from '../components/seo/seo';
 import Layout from '../components/layout/layout';
 import HeroSection from '../components/heroSection/heroSection';
-import FeaturesSection from '../components/featuresSection/featuresSection';
+import StepsSection from '../components/stepsSection/stepsSection';
 import DetailsSection from '../components/detailsSection/detailsSection';
 
 const HomePage = () => {
@@ -11,7 +11,7 @@ const HomePage = () => {
       <Seo />
       <Layout>
         <HeroSection />
-        <FeaturesSection />
+        <StepsSection />
         <DetailsSection />
       </Layout>
     </>

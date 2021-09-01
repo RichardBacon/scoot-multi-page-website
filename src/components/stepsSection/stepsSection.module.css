@@ -1,4 +1,4 @@
-.featuresSection {
+.stepsSection {
   position: relative;
 }
 
@@ -14,14 +14,14 @@
   z-index: -1;
 }
 
-.featuresWrapper {
+.stepsWrapper {
   display: flex;
   gap: 3rem;
   margin: 16rem auto;
   max-width: var(--content-max-width);
 }
 
-.featureCard {
+.stepCard {
   display: flex;
   flex-direction: column;
   gap: 4rem;
