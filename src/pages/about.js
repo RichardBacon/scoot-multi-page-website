@@ -1,12 +1,15 @@
 import * as React from 'react';
 import Seo from '../components/seo/seo';
 import Layout from '../components/layout/layout';
+import PageBanner from '../components/pageBanner/pageBanner';
 
 const AboutPage = () => {
   return (
     <>
       <Seo title="About" />
-      <Layout>About Page</Layout>
+      <Layout>
+        <PageBanner pageTitle="About" />
+      </Layout>
     </>
   );
 };

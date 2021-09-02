@@ -1,12 +1,15 @@
 import * as React from 'react';
 import Seo from '../components/seo/seo';
 import Layout from '../components/layout/layout';
+import PageBanner from '../components/pageBanner/pageBanner';
 
 const CareersPage = () => {
   return (
     <>
       <Seo title="Careers" />
-      <Layout>Careers Page</Layout>
+      <Layout>
+        <PageBanner pageTitle="Careers" />
+      </Layout>
     </>
   );
 };
