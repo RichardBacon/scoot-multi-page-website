@@ -3,12 +3,12 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Circle from '../../assets/patterns/circle.svg';
 import Arrow from '../../assets/patterns/left-downward-arrow.svg';
 import Button from '../button/button';
-import * as styles from './detailsSection.module.css';
+import * as styles from './featuresSection.module.css';
 
-const DetailsSection = () => {
+const FeaturesSection = () => {
   return (
-    <section className={styles.detailsSection}>
-      <div className={styles.detail}>
+    <section className={styles.featuresSection}>
+      <div className={styles.feature}>
         <Circle className={styles.circle} />
         <Arrow className={styles.arrow} />
         <div className={styles.content}>
@@ -29,7 +29,7 @@ const DetailsSection = () => {
         />
       </div>
 
-      <div className={`${styles.detail} ${styles.detailReverse}`}>
+      <div className={`${styles.feature} ${styles.featureReverse}`}>
         <Circle className={styles.circleReverse} />
         <Arrow className={styles.arrowReverse} />
         <div className={styles.contentReverse}>
@@ -50,7 +50,7 @@ const DetailsSection = () => {
         />
       </div>
 
-      <div className={styles.detail}>
+      <div className={styles.feature}>
         <Circle className={styles.circle} />
         <Arrow className={styles.arrow} />
         <div className={styles.content}>
@@ -74,4 +74,4 @@ const DetailsSection = () => {
   );
 };
 
-export default DetailsSection;
+export default FeaturesSection;
