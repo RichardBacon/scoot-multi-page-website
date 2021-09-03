@@ -1,0 +1,24 @@
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.heading {
+  color: var(--color-light-navy);
+  font-family: var(--font-space-mono);
+  font-size: 2.4rem;
+}
+
+.text {
+  color: var(--color-dim-grey);
+  font-family: var(--font-lexend-deca);
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
