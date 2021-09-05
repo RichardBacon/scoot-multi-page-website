@@ -64,3 +64,8 @@
   line-height: 1.7;
   max-width: 44rem;
 }
+
+.imageWrapper {
+  border-radius: 50%;
+  overflow: hidden;
+}

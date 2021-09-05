@@ -5,7 +5,6 @@ import Button from '../button/button';
 import * as styles from './feature.module.css';
 
 const Feature = ({ heading, text, image, reverse }) => {
-  console.log(reverse);
   return (
     <div className={`${styles.feature} ${reverse && styles.featureReverse}`}>
       <Circle
@@ -18,7 +17,7 @@ const Feature = ({ heading, text, image, reverse }) => {
         <Button>Learn More</Button>
       </div>
 
-      {image}
+      <div className={styles.imageWrapper}>{image}</div>
     </div>
   );
 };
