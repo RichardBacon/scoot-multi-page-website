@@ -1,18 +1,38 @@
 .hero {
   background-image: url('../../assets/images/home-hero-desktop.jpg');
+  background-position: 75%;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   height: 65rem;
   justify-content: center;
+  position: relative;
 }
 
-.headingWrapper {
+@media (max-width: 1240px) {
+  .hero {
+    justify-content: flex-end;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
   margin: 0 auto;
   max-width: var(--content-max-width);
+  text-align: left;
   width: 100%;
+}
+
+@media (max-width: 1240px) {
+  .info {
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+  }
 }
 
 .heading {
@@ -22,33 +42,76 @@
   max-width: 60rem;
 }
 
-.info {
-  align-items: center;
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-}
-
 .text {
   color: var(--color-white);
   font-family: var(--font-lexend-deca);
   font-size: 1.5rem;
   line-height: 1.7;
+  margin-left: 8rem;
   max-width: 40rem;
 }
 
-.rightArrow {
-  position: relative;
-  top: 46%;
+@media (max-width: 1400px) {
+  .text {
+    margin-left: 0;
+  }
 }
 
-.whiteCircles {
-  position: relative;
-  top: 66%;
+@media (max-width: 1240px) {
+  .text {
+    max-width: 56rem;
+  }
 }
 
 .buttonWrapper {
-  margin: 0 auto;
-  max-width: 93rem;
+  margin-left: 8rem;
+}
+
+@media (max-width: 1400px) {
+  .buttonWrapper {
+    margin-left: 0;
+  }
+}
+
+.icons {
+  display: flex;
+  gap: 5rem;
+  position: absolute;
+  top: 34rem;
   width: 100%;
+}
+
+@media (max-width: 1240px) {
+  .icons {
+    gap: 0;
+    justify-content: space-between;
+    margin: 4rem 0;
+    position: initial;
+  }
+}
+
+.line {
+  align-self: flex-start;
+}
+
+@media (max-width: 1400px) {
+  .line {
+    display: none;
+  }
+}
+
+.rightArrow {
+  margin-left: auto;
+}
+
+@media (max-width: 1240px) {
+  .rightArrow {
+    margin-left: 0;
+  }
+}
+
+.whiteCircles {
+  align-self: flex-end;
+  bottom: 1rem;
+  position: relative;
 }
