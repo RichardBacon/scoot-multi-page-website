@@ -1,10 +1,26 @@
 .stepsSection {
   background-color: var(--color-white);
+  display: flex;
+  justify-content: center;
 }
 
 .stepsWrapper {
   display: flex;
   gap: 3rem;
-  margin: 16rem auto;
+  margin: 16rem 4rem;
   max-width: var(--content-max-width);
+}
+
+@media (max-width: 1000px) {
+  .stepsWrapper {
+    flex-direction: column;
+    gap: 4rem;
+    margin: 12rem 10rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .stepsWrapper {
+    margin: 12rem 4rem;
+  }
 }
