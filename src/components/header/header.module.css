@@ -10,3 +10,9 @@
   margin: 0 auto;
   max-width: var(--content-max-width);
 }
+
+@media (max-width: 1200px) {
+  .headerWrapper {
+    padding: 0 4rem;
+  }
+}
