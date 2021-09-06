@@ -17,17 +17,17 @@ const Footer = () => {
         <ul className={styles.socialLinks}>
           <li>
             <a href="https://www.facebook.com">
-              <FacebookIcon />
+              <FacebookIcon className={styles.socialLink} />
             </a>
           </li>
           <li>
             <a href="https://www.twitter.com">
-              <TwitterIcon />
+              <TwitterIcon className={styles.socialLink} />
             </a>
           </li>
           <li>
             <a href="https://www.instagram.com">
-              <InstagramIcon />
+              <InstagramIcon className={styles.socialLink} />
             </a>
           </li>
         </ul>

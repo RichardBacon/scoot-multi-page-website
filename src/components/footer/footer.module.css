@@ -16,3 +16,13 @@
   display: flex;
   gap: 2rem;
 }
+
+.socialLink {
+  fill: var(--color-yellow);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .socialLink:hover {
+    fill: var(--color-light-grey);
+  }
+}

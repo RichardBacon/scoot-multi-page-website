@@ -8,3 +8,11 @@
   height: 5.4rem;
   width: 18rem;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    background-color: transparent;
+    border: solid var(--color-yellow) 3px;
+    color: var(--color-yellow);
+  }
+}
