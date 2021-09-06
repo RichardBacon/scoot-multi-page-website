@@ -1,6 +1,5 @@
 .hero {
   background-image: url('../../assets/images/home-hero-desktop.jpg');
-  background-position: 75%;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -12,7 +11,20 @@
 
 @media (max-width: 1240px) {
   .hero {
+    background-position: 75%;
     justify-content: flex-end;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    background-position: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    justify-content: center;
   }
 }
 
@@ -42,6 +54,13 @@
   max-width: 60rem;
 }
 
+@media (max-width: 600px) {
+  .heading {
+    font-size: 4rem;
+    max-width: 30rem;
+  }
+}
+
 .text {
   color: var(--color-white);
   font-family: var(--font-lexend-deca);
@@ -60,6 +79,12 @@
 @media (max-width: 1240px) {
   .text {
     max-width: 56rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    max-width: 30rem;
   }
 }
 
@@ -110,8 +135,22 @@
   }
 }
 
+@media (max-width: 700px) {
+  .rightArrow {
+    bottom: 3rem;
+    left: -30rem;
+    position: absolute;
+  }
+}
+
 .whiteCircles {
   align-self: flex-end;
   bottom: 1rem;
   position: relative;
+}
+
+@media (max-width: 700px) {
+  .whiteCircles {
+    display: none;
+  }
 }
