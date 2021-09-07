@@ -5,7 +5,3 @@ Use a percentage so that user set font size is respected
 html {
   font-size: 62.5%;
 }
-
-body {
-  overflow-x: hidden;
-}
