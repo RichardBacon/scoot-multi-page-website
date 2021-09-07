@@ -10,9 +10,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
-        <Nav>
-          <Logo />
-        </Nav>
+        <Logo className={styles.logo} />
+        <Nav />
 
         <ul className={styles.socialLinks}>
           <li>
