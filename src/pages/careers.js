@@ -5,6 +5,7 @@ import Layout from '../components/layout/layout';
 import PageBanner from '../components/pageBanner/pageBanner';
 import FeaturesSection from '../components/featuresSection/featuresSection';
 import ValuesSection from '../components/valuesSection/valuesSection';
+import JobsSection from '../components/jobsSection/jobsSection';
 
 const CareersPage = () => {
   const features = [
@@ -28,6 +29,7 @@ const CareersPage = () => {
         <PageBanner pageTitle="Careers" />
         <FeaturesSection features={features} />
         <ValuesSection />
+        <JobsSection />
       </Layout>
     </>
   );

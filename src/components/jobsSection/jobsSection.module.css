@@ -1,0 +1,13 @@
+.jobsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 16rem auto;
+  max-width: var(--content-max-width);
+}
+
+@media (max-width: 1200px) {
+  .jobsSection {
+    margin: 12rem 4rem;
+  }
+}
