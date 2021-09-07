@@ -7,7 +7,7 @@ const PageBanner = ({ pageTitle }) => {
     <section className={styles.pageBanner}>
       <div className={styles.headingWrapper}>
         <h1 className={styles.heading}>{pageTitle}</h1>
-        <WhiteCircles />
+        <WhiteCircles className={styles.whiteCircles} />
       </div>
     </section>
   );

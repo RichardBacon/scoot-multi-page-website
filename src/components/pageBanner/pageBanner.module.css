@@ -1,21 +1,46 @@
 .pageBanner {
   background-image: url('../../assets/images/about-hero-desktop.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20rem;
 }
 
 .headingWrapper {
   align-items: center;
   display: flex;
-  height: 100%;
+  height: 20rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--content-max-width);
+}
+
+@media (max-width: 1200px) {
+  .headingWrapper {
+    margin: 0 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .headingWrapper {
+    height: 16rem;
+    justify-content: center;
+  }
 }
 
 .heading {
   color: var(--color-white);
   font-family: var(--font-space-mono);
   font-size: 5.6rem;
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .whiteCircles {
+    display: none;
+  }
 }
