@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 import Nav from '../nav/nav';
 import HamburgerIcon from '../../assets/icons/hamburger.svg';
 import Logo from '../../assets/icons/logo-blue.svg';
@@ -10,7 +11,9 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.headerWrapper}>
         <HamburgerIcon className={styles.hamburgerIcon} />
-        <Logo className={styles.logo} />
+        <Link to="/">
+          <Logo className={styles.logo} />
+        </Link>
 
         <div className={styles.navWrapper}>
           <Nav />

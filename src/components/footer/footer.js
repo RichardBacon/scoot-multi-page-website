@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'gatsby';
 import Nav from '../nav/nav';
 import Logo from '../../assets/icons/logo-white.svg';
 import FacebookIcon from '../../assets/icons/facebook.svg';
@@ -10,7 +11,9 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
-        <Logo className={styles.logo} />
+        <Link to="/">
+          <Logo />
+        </Link>
         <Nav />
 
         <ul className={styles.socialLinks}>
