@@ -4,6 +4,7 @@ import Seo from '../components/seo/seo';
 import Layout from '../components/layout/layout';
 import PageBanner from '../components/pageBanner/pageBanner';
 import FeaturesSection from '../components/featuresSection/featuresSection';
+import ValuesSection from '../components/valuesSection/valuesSection';
 
 const CareersPage = () => {
   const features = [
@@ -26,6 +27,7 @@ const CareersPage = () => {
       <Layout>
         <PageBanner pageTitle="Careers" />
         <FeaturesSection features={features} />
+        <ValuesSection />
       </Layout>
     </>
   );

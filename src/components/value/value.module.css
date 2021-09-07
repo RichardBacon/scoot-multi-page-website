@@ -1,0 +1,50 @@
+.value {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.imageWrapper img {
+  border-radius: 50%;
+}
+
+.valueNumber {
+  align-items: center;
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+  color: var(--color-light-navy);
+  display: flex;
+  font-family: var(--font-space-mono);
+  font-size: 2.4rem;
+  height: 9.6rem;
+  justify-content: center;
+  position: relative;
+  top: -4rem;
+  width: 9.6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  text-align: center;
+}
+
+.heading {
+  color: var(--color-light-navy);
+  font-family: var(--font-space-mono);
+  font-size: 2.4rem;
+}
+
+.text {
+  color: var(--color-dim-grey);
+  font-family: var(--font-lexend-deca);
+  font-size: 1.5rem;
+  line-height: 1.7;
+}

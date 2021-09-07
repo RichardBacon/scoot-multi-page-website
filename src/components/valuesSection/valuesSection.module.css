@@ -1,0 +1,36 @@
+.valuesSection {
+  background-color: var(--color-white);
+}
+
+@media (max-width: 1200px) {
+  .valuesSection {
+    margin: 0 2rem;
+  }
+}
+
+.valuesWrapper {
+  display: flex;
+  gap: 4rem;
+  margin: 8rem auto;
+  max-width: var(--content-max-width);
+}
+
+@media (max-width: 960px) {
+  .valuesWrapper {
+    flex-direction: column;
+    max-width: 50rem;
+  }
+}
+
+.heading {
+  color: var(--color-light-navy);
+  font-family: var(--font-space-mono);
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 3rem;
+  }
+}
