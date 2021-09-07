@@ -15,7 +15,7 @@
   .stepsWrapper {
     flex-direction: column;
     gap: 4rem;
-    margin: 12rem 10rem;
+    margin: 12rem 10rem 4rem 10rem;
   }
 }
 

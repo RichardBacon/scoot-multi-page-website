@@ -10,7 +10,7 @@ const Feature = ({ heading, text, image, reverse }) => {
       <Circle
         className={`${styles.circle} ${reverse && styles.circleReverse}`}
       />
-      <Arrow className={`${styles.arrow} ${reverse && styles.arrowReverse}`} />
+      <Arrow className={`${reverse ? styles.arrowReverse : styles.arrow}`} />
       <div className={`${styles.content} ${reverse && styles.contentReverse}`}>
         <h2 className={styles.heading}>{heading}</h2>
         <p className={styles.text}>{text}</p>
