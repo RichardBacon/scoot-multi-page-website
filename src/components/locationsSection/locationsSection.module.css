@@ -1,0 +1,207 @@
+.locationsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12rem;
+  margin: 12rem auto;
+  max-width: var(--content-max-width);
+}
+
+@media (max-width: 1120px) {
+  .locationsSection {
+    gap: 8rem;
+    margin: 8rem auto;
+  }
+}
+
+.map {
+  position: relative;
+}
+
+@media (max-width: 1120px) {
+  .map {
+    margin: 0 auto;
+    max-width: 70rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .map {
+    max-width: 32rem;
+  }
+}
+
+.locationMarker {
+  align-items: center;
+  background-color: var(--color-yellow);
+  color: var(--color-light-navy);
+  display: flex;
+  font-family: var(--font-space-mono);
+  font-size: 2.4rem;
+  height: 7rem;
+  justify-content: center;
+  position: absolute;
+  width: 18rem;
+  z-index: 1;
+}
+
+@media (max-width: 1120px) {
+  .locationMarker {
+    font-size: 1.5rem;
+    height: 3.6rem;
+    justify-content: center;
+    position: absolute;
+    width: 14rem;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .locationMarker {
+    background-color: transparent;
+    height: initial;
+    width: initial;
+  }
+}
+
+.locationMarker::after {
+  background-color: var(--color-yellow);
+  bottom: -0.5rem;
+  content: '';
+  height: 4rem;
+  position: absolute;
+  transform: rotate(45deg);
+  width: 4rem;
+  z-index: -1;
+}
+
+@media (max-width: 1120px) {
+  .locationMarker::after {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .locationMarker::after {
+    border-radius: 50%;
+    bottom: -1.6rem;
+  }
+}
+
+.newYorkMarker {
+  left: 15rem;
+  top: 7rem;
+}
+
+.londonMarker {
+  left: 40rem;
+  top: 2rem;
+}
+
+.yokohamaMarker {
+  left: 85rem;
+  top: 8rem;
+}
+
+.jakartaMarker {
+  left: 78rem;
+  top: 25rem;
+}
+
+@media (max-width: 1120px) {
+  .newYorkMarker {
+    left: 9rem;
+    top: 5rem;
+  }
+
+  .londonMarker {
+    left: 24rem;
+    top: 2rem;
+  }
+
+  .yokohamaMarker {
+    left: 53rem;
+    top: 6rem;
+  }
+
+  .jakartaMarker {
+    left: 48rem;
+    top: 17rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .newYorkMarker {
+    left: 4rem;
+    top: 2rem;
+  }
+
+  .londonMarker {
+    left: 11rem;
+    top: 1rem;
+  }
+
+  .yokohamaMarker {
+    left: 24rem;
+    top: 3rem;
+  }
+
+  .jakartaMarker {
+    left: 22rem;
+    top: 7rem;
+  }
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.heading {
+  color: var(--color-light-navy);
+  font-family: var(--font-space-mono);
+  font-size: 4.8rem;
+  max-width: 36rem;
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .heading {
+    font-size: 3rem;
+  }
+}
+
+.text {
+  color: var(--color-dim-grey);
+  flex-shrink: 10;
+  font-family: var(--font-lexend-deca);
+  font-size: 1.5rem;
+  line-height: 1.7;
+  max-width: 44rem;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    max-width: 56rem;
+  }
+}
