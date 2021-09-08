@@ -1,0 +1,32 @@
+.faqSection {
+  display: flex;
+  gap: 8rem;
+}
+
+@media (max-width: 900px) {
+  .faqSection {
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+.heading {
+  color: var(--color-light-navy);
+  flex-shrink: 0;
+  font-family: var(--font-space-mono);
+  font-size: 4rem;
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 2.4rem;
+  }
+}
+
+.faqsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}

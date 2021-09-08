@@ -1,0 +1,36 @@
+.faqsSection {
+  background-color: var(--color-white);
+}
+
+.faqsSectionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin: 12rem auto;
+  max-width: var(--content-max-width);
+}
+
+@media (max-width: 1200px) {
+  .faqsSectionWrapper {
+    margin: 12rem 4rem;
+  }
+}
+
+.heading {
+  color: var(--color-light-navy);
+  font-family: var(--font-space-mono);
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 3rem;
+  }
+}
+
+.faqsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}

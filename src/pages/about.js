@@ -5,6 +5,7 @@ import Layout from '../components/layout/layout';
 import PageBanner from '../components/pageBanner/pageBanner';
 import FeaturesSection from '../components/featuresSection/featuresSection';
 import ValuesSection from '../components/valuesSection/valuesSection';
+import FaqsSection from '../components/faqsSection/faqsSection';
 
 const AboutPage = () => {
   const features = [
@@ -39,6 +40,7 @@ const AboutPage = () => {
         <PageBanner pageTitle="About" />
         <FeaturesSection features={features} />
         <ValuesSection />
+        <FaqsSection />
       </Layout>
     </>
   );
